@@ -196,15 +196,48 @@ header {
     margin-top: 100px;
 }
 
-.div-th-bloc {
+.div-rd-bloc {
     margin-top: 100px;
     div {
         display: flex;
         justify-content: center;
+        margin: 25px 0;
         h1 {
             color: white;
-            width: 00px;
+            width: 400px;
             text-align: center;
+            font-size: 2.3em;
         }
     }
+    .card-options {
+        display: flex;
+        justify-content: center;
+        .card {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #272D37;
+            width: 400px;
+            padding: 15px;
+            border-radius: 16px;
+            margin: 0px 20px;
+            div {
+                padding: 40px;
+                margin: 0;
+            }
+            h2, p{
+                color: white;
+                text-align: center;
+            }
+            p {
+                font-size: 14px;
+                color: rgba(255, 255, 255, 0.301);
+                padding: 25px;
+            }
+        }
+    }
+}
+
+.div-th-bloc {
+    
 }
